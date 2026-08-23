@@ -12,7 +12,9 @@ manim -pqh  math_scene.py MathExplanation   # 1080p60 (Full HD) — good final r
 manim -pqk  math_scene.py MathExplanation   # 4K — slow, final export only
 ```
 
-ffmpeg -ss 00:00:08 -t 6 -i media/videos/fourierSeries/1080p60/MathExplanation.mp4 -i palette.png -filter_complex "fps=15,scale=560:-1:flags=lanczos[x];[x][1:v]paletteuse" preview_fourier.gif
+```powershell
+ffmpeg -ss 00:00:08 -t 6 -i media/videos/fourierSeries/1080p60/MathExplanation.mp4 -i palette.png -filter_complex "fps=15,scale=560:-1:flags=lanczos[x];[x][1:v]paletteuse" preview_fourier.gif # To generate a gif
+```
 
 Flags: `-p` = preview (auto-opens the video when done), `-q` = quality, `l/m/h/k` = low/medium/high/4K.
 
