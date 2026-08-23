@@ -1,7 +1,9 @@
 ## Rendering — quality flags cheat sheet
 
-![alt text](preview_fourier1.gif)
-![alt text](preview_fourier2.gif)
+<p align="center">
+  <img src="preview_fourier1.gif" width="49%" alt="preview 1" />
+  <img src="preview_fourier2.gif" width="49%" alt="preview 2" />
+</p>
 
 ```powershell
 manim -pql  math_scene.py MathExplanation   # low quality, fast — use while iterating
