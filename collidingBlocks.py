@@ -1,26 +1,7 @@
-"""
-Galperin's Colliding Blocks Compute Pi
----------------------------------------
-Manim Community Edition v0.18+
-
-A small block (m1 = 1 kg) sits between a wall and a large block
-(m2 = 100 kg). The large block slides left and strikes the small one.
-Every collision -- block-vs-wall and block-vs-block -- is a perfectly
-elastic collision. If you count every collision that happens before
-Block 2 permanently reverses direction and escapes to the right,
-you get exactly 31 collisions -- the first two digits of pi.
-(In general the count is floor(pi * sqrt(m2 / m1)).)
-
-No LaTeX is used anywhere -- only Text and basic geometric Mobjects.
-"""
-
 from manim import *
 
-# ----------------------------------------------------------------------
-# Physics parameters
-# ----------------------------------------------------------------------
-M1 = 1.0  # mass of the small block (kg)
-M2 = 100.0  # mass of the large block (kg)
+M1 = 1.0  # mass of the small block
+M2 = 100.0  # mass of the large block
 
 WALL_X = -6.3  # x-position of the wall (scene units)
 FLOOR_Y = -2.6  # y-position of the floor

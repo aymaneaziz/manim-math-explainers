@@ -4,11 +4,6 @@ import numpy as np
 config.background_color = "#0a0a10"
 
 
-# ---------------------------------------------------------------------
-# Hopf map: a point (theta, phi) on S^2 lifts to a circle on S^3,
-# parametrized by t in [0, 2*pi). We then stereographically project
-# that circle from S^3 down into ordinary R^3.
-# ---------------------------------------------------------------------
 def hopf_xyz(theta, phi, t, eps=0.16):
     z1 = np.exp(1j * t) * np.cos(theta / 2)
     z2 = np.exp(1j * (t + phi)) * np.sin(theta / 2)
