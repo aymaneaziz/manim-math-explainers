@@ -1,11 +1,15 @@
 ## Rendering — quality flags cheat sheet
 
+![alt text](preview_fourier.gif)
+
 ```powershell
 manim -pql  math_scene.py MathExplanation   # low quality, fast — use while iterating
 manim -pqm  math_scene.py MathExplanation   # medium quality
 manim -pqh  math_scene.py MathExplanation   # 1080p60 (Full HD) — good final render
 manim -pqk  math_scene.py MathExplanation   # 4K — slow, final export only
 ```
+
+ffmpeg -ss 00:00:08 -t 6 -i media/videos/fourierSeries/1080p60/MathExplanation.mp4 -i palette.png -filter_complex "fps=15,scale=560:-1:flags=lanczos[x];[x][1:v]paletteuse" preview_fourier.gif
 
 Flags: `-p` = preview (auto-opens the video when done), `-q` = quality, `l/m/h/k` = low/medium/high/4K.
 
@@ -153,7 +157,5 @@ Code/
 ```
 
 You don't need to create `media/` yourself — manim makes it on first render.
-
----
 
 ---
