@@ -1,10 +1,3 @@
-# Manim Setup Guide (Windows)
-
-Everything you need installed and configured _before_ you render a single scene.
-Written for PowerShell / VS Code on Windows
-
----
-
 ## 1. Install FFmpeg
 
 Manim uses FFmpeg to stitch rendered frames into video.
