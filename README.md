@@ -1,3 +1,16 @@
+## Rendering — quality flags cheat sheet
+
+```powershell
+manim -pql  math_scene.py MathExplanation   # low quality, fast — use while iterating
+manim -pqm  math_scene.py MathExplanation   # medium quality
+manim -pqh  math_scene.py MathExplanation   # 1080p60 (Full HD) — good final render
+manim -pqk  math_scene.py MathExplanation   # 4K — slow, final export only
+```
+
+Flags: `-p` = preview (auto-opens the video when done), `-q` = quality, `l/m/h/k` = low/medium/high/4K.
+
+---
+
 ## 1. Install FFmpeg
 
 Manim uses FFmpeg to stitch rendered frames into video.
@@ -48,7 +61,7 @@ Plain `Text()` works without this. The moment you use `MathTex()` or `Tex()` for
 3. Finish the install
    s
 
-### 4a. Make sure MiKTeX is on your PATH
+### 3a. Make sure MiKTeX is on your PATH
 
 Open a **new** PowerShell window and check:
 
@@ -77,7 +90,7 @@ Verify:
 latex --version
 ```
 
-### 4b. Turn on auto-install for missing LaTeX packages
+### 3b. Turn on auto-install for missing LaTeX packages
 
 You'll hit `File 'xyz.sty' not found` errors the first time you use certain LaTeX features (this is normal — MiKTeX installs packages lazily, only when needed).
 
@@ -104,7 +117,7 @@ mpm --install=type1cm
 
 ---
 
-## 5. Sanity-check the full pipeline
+## 4. Sanity-check the full pipeline
 
 Create a test file `test_scene.py`:
 
@@ -128,7 +141,7 @@ If a preview window pops up showing the equation being written, **you're fully s
 
 ---
 
-## 6. Project folder structure (recommended)
+## 5. Project folder structure (recommended)
 
 ```
 Code/
@@ -142,16 +155,5 @@ Code/
 You don't need to create `media/` yourself — manim makes it on first render.
 
 ---
-
-## 7. Rendering — quality flags cheat sheet
-
-```powershell
-manim -pql  math_scene.py MathExplanation   # low quality, fast — use while iterating
-manim -pqm  math_scene.py MathExplanation   # medium quality
-manim -pqh  math_scene.py MathExplanation   # 1080p60 (Full HD) — good final render
-manim -pqk  math_scene.py MathExplanation   # 4K — slow, final export only
-```
-
-Flags: `-p` = preview (auto-opens the video when done), `-q` = quality, `l/m/h/k` = low/medium/high/4K.
 
 ---
