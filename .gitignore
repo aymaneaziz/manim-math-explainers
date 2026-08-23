@@ -1,0 +1,25 @@
+# Manim render output (large binary files — don't commit these)
+media/
+*.mp4
+*.mov
+*.gif
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# LaTeX / MiKTeX intermediate files (if any stray outside media/)
+*.aux
+*.log
+*.dvi
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
