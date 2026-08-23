@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/2118183852_2476843998_223132457.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_3880968470_3638011318.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_2502049300_1954774677.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_3880968470_308957375.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_1808710660_814797874.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_3880968470_477223897.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_4141990234_2857100517.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_2100636144_30971108.mp4'
+file 'file:C:/Users/ayman/OneDrive/Bureau/Code/media/videos/math_scene/480p15/partial_movie_files/MathExplanation/366519484_847192958_1053111085.mp4'
