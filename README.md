@@ -1,5 +1,6 @@
 ## Rendering — quality flags cheat sheet
 
+![alt text](preview_fourier1.gif)
 ![alt text](preview_fourier.gif)
 
 ```powershell
