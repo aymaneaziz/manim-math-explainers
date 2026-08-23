@@ -9,7 +9,7 @@ manim -pqk  math_scene.py MathExplanation   # 4K — slow, final export only
 
 Flags: `-p` = preview (auto-opens the video when done), `-q` = quality, `l/m/h/k` = low/medium/high/4K.
 
----
+## ![Completing the Square preview](previews/completing_the_square.gif)
 
 ## 1. Install FFmpeg
 
