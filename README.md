@@ -1,5 +1,7 @@
 ## Rendering — quality flags cheat sheet
 
+thanks to 3Blue1Brown
+
 <p align="center">
   <img src="preview_fourier1.gif" width="49%" alt="preview 1" />
   <img src="preview_fourier2.gif" width="49%" alt="preview 2" />
